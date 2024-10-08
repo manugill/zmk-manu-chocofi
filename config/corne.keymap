@@ -93,12 +93,12 @@
 
         left_tab {
             bindings = <&kp TAB>;
-            key-positions = <5 4>;
+            key-positions = <3 15>;
         };
 
         right_tab {
             bindings = <&kp TAB>;
-            key-positions = <7 6>;
+            key-positions = <8 20>;
         };
     };
 
