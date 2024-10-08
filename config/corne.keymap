@@ -46,6 +46,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_thumb_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <36 37>;
+        };
+
+        right_thumb_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <39 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,10 +71,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                 &kp W                 &kp F                                &kp P                   &kp B            &kp J    &kp L                     &kp U                       &kp Y                   &kp SQT                 &none
-&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_ALT R  &hmr_left LEFT_CONTROL S             &hmr_left LEFT_SHIFT T  &kp G            &kp M    &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_CONTROL E  &hmr_right RIGHT_ALT I  &hmr_right RIGHT_GUI O  &none
-&none  &kp Z                 &kp X                 &kp C                                &kp D                   &kp V            &kp K    &kp H                     &kp COMMA                   &kp DOT                 &kp FSLH                &none
-                                                   &hold_or_kp LC(LA(LS(LGUI))) ESCAPE  &mo_or_kp 0 SPACE       &kp BACKSPACE    &kp RET  &mo 0                     &kp RALT
+&none  &kp Q                 &kp W                 &kp F                     &kp P                   &kp B                                  &kp J           &kp L                     &kp U                       &kp Y                   &kp SQT                 &none
+&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_ALT R  &hmr_left LEFT_CONTROL S  &hmr_left LEFT_SHIFT T  &kp G                                  &kp M           &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_CONTROL E  &hmr_right RIGHT_ALT I  &hmr_right RIGHT_GUI O  &none
+&none  &kp Z                 &kp X                 &kp C                     &kp D                   &kp V                                  &kp K           &kp H                     &kp COMMA                   &kp DOT                 &kp FSLH                &none
+                                                   &kp BACKSPACE             &mo_or_kp 3 SPACE       &hold_or_kp LS(LA(LC(LGUI))) ESCAPE    &sk LEFT_SHIFT  &mo_or_kp 1 ENTER         &mo_or_kp 2 TAB
             >;
         };
 
@@ -79,6 +93,15 @@
 &none  &kp COLON       &kp DOLLAR       &kp PERCENT   &kp CARET              &kp EQUAL          &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
 &none  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH               &kp BSLH           &none   &none            &none              &none          &none          &none
                                         &kp PERIOD    &kp RIGHT_PARENTHESIS  &kp MINUS          &trans  &trans           &trans
+            >;
+        };
+
+        NAVIGATE {
+            bindings = <
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans          &trans          &trans        &trans           &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans          &trans          &trans        &trans           &trans
+                                    &trans            &trans          &trans    &trans  &trans          &trans
             >;
         };
     };
