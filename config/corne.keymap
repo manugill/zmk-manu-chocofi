@@ -83,12 +83,22 @@
 
         left_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <4 5>;
+            key-positions = <28 29>;
         };
 
         right_delete {
             bindings = <&kp DELETE>;
-            key-positions = <6 7>;
+            key-positions = <30 31>;
+        };
+
+        left_tab {
+            bindings = <&kp TAB>;
+            key-positions = <5 4>;
+        };
+
+        right_tab {
+            bindings = <&kp TAB>;
+            key-positions = <7 6>;
         };
     };
 
