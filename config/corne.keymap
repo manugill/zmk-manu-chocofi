@@ -32,7 +32,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        ALPHA {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -40,14 +40,14 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E                                &kp R              &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D                                &kp F              &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C                                &kp V              &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &none
+&none  &kp Q  &kp W  &kp F                                &kp P              &kp B        &kp J    &kp L  &kp U      &kp Y    &kp SQT   &none
+&none  &kp A  &kp R  &kp S                                &kp T              &kp G        &kp M    &kp N  &kp E      &kp I    &kp O     &none
+&none  &kp Z  &kp X  &kp C                                &kp D              &kp V        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH  &none
                      &hold_or_kp LC(LA(LS(LGUI))) ESCAPE  &mo_or_kp 1 SPACE  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
-        lower_layer {
+        NAVIGATE {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
