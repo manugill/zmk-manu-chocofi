@@ -58,6 +58,11 @@
             bindings = <&kp DELETE>;
             key-positions = <39 40>;
         };
+
+        left_index_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <17 16>;
+        };
     };
 
     keymap {
