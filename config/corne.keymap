@@ -68,12 +68,7 @@
 
         left_enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 17>;
-        };
-
-        right_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+            key-positions = <3 4>;
         };
 
         right_thumb_bluetooth {
@@ -83,22 +78,22 @@
 
         left_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <28 29>;
+            key-positions = <16 28>;
         };
 
-        right_delete {
+        left_delete {
             bindings = <&kp DELETE>;
-            key-positions = <30 31>;
+            key-positions = <4 16>;
         };
 
         left_tab {
             bindings = <&kp TAB>;
-            key-positions = <3 15>;
+            key-positions = <17 29>;
         };
 
-        right_tab {
-            bindings = <&kp TAB>;
-            key-positions = <8 20>;
+        left_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <3 2>;
         };
     };
 
@@ -113,10 +108,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                 &kp W                 &kp F                     &kp P                   &kp B                                  &kp J           &kp L                     &kp U                       &kp Y                   &kp SQT                 &none
-&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_ALT R  &hmr_left LEFT_CONTROL S  &hmr_left LEFT_SHIFT T  &kp G                                  &kp M           &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_CONTROL E  &hmr_right RIGHT_ALT I  &hmr_right RIGHT_GUI O  &none
-&none  &kp Z                 &kp X                 &kp C                     &kp D                   &kp V                                  &kp K           &kp H                     &kp COMMA                   &kp DOT                 &kp FSLH                &none
-                                                   &kp BACKSPACE             &mo_or_kp 3 SPACE       &hold_or_kp LS(LA(LC(LGUI))) ESCAPE    &sk LEFT_SHIFT  &mo_or_kp 1 ENTER         &mo_or_kp 2 TAB
+&none  &kp Q                 &kp W                     &kp F                 &kp P                   &kp B                                  &kp J           &kp L                     &kp U                   &kp Y                       &kp SQT                 &none
+&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_CONTROL R  &hmr_left LEFT_ALT S  &hmr_left LEFT_SHIFT T  &kp G                                  &kp M           &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_ALT E  &hmr_right RIGHT_CONTROL I  &hmr_right RIGHT_GUI O  &none
+&none  &kp Z                 &kp X                     &kp C                 &kp D                   &kp V                                  &kp K           &kp H                     &kp COMMA               &kp DOT                     &kp FSLH                &none
+                                                       &kp BACKSPACE         &mo_or_kp 3 SPACE       &hold_or_kp LS(LA(LC(LGUI))) ESCAPE    &sk LEFT_SHIFT  &mo_or_kp 1 ENTER         &mo_or_kp 2 TAB
             >;
 
             label = "ALPHA";
@@ -124,9 +119,9 @@
 
         NUMERIC {
             bindings = <
-&none  &kp LBKT   &kp N7        &kp N8      &kp N9        &kp RBKT     &none   &none            &none              &none          &none          &none
-&none  &kp SEMI   &kp N4        &kp N5      &kp N6        &kp EQUAL    &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none  &kp GRAVE  &kp NUMBER_1  &kp N2      &kp N3        &kp BSLH     &none   &none            &none              &none          &none          &none
+&none  &kp LBKT   &kp N7        &kp N8      &kp N9        &kp RBKT     &none   &none            &none          &none              &none          &none
+&none  &kp SEMI   &kp N4        &kp N5      &kp N6        &kp EQUAL    &none   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none
+&none  &kp GRAVE  &kp NUMBER_1  &kp N2      &kp N3        &kp BSLH     &none   &none            &none          &none              &none          &none
                                 &kp PERIOD  &kp NUMBER_0  &kp MINUS    &trans  &trans           &trans
             >;
 
@@ -135,32 +130,32 @@
 
         SYMBOLS {
             bindings = <
-&none  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &none   &none            &none              &none          &none          &none
-&none  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &none   &none            &none              &none          &none          &none
+&none  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &none   &none            &none          &none              &none          &none
+&none  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &none   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none
+&none  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &none   &none            &none          &none              &none          &none
                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS          &trans  &trans           &trans
             >;
 
             label = "SYMBOLS";
         };
 
-        NAVIGATE {
+        NAV {
             bindings = <
-&none  &none         &none         &kp TAB           &kp BACKSPACE   &kp DELETE    &none   &none           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none            &none
-&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none         &none   &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &none
-&none  &none         &none         &none             &none           &none         &none   &kp C_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none            &none
-                                   &trans            &trans          &trans        &trans  &trans          &trans
+&none  &none         &none              &none          &none           &none     &none   &none           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none            &none
+&none  &kp LEFT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_SHIFT  &none     &none   &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &none
+&none  &none         &none              &none          &none           &none     &none   &kp C_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none            &none
+                                        &trans         &trans          &trans    &trans  &trans          &trans
             >;
 
-            label = "NAVIGATE";
+            label = "NAV";
         };
 
         SETUP {
             bindings = <
-&none  &none          &none          &none          &none          &none            &none           &none  &none  &none  &none       &none
-&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none           &none  &none  &none  &none       &none
-&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &bt BT_CLR_ALL  &none  &none  &none  &bt BT_CLR  &none
-                                     &none          &trans         &none            &none           &none  &none
+&none  &none          &none          &none          &none          &none            &none  &none  &none  &none  &bt BT_CLR_ALL  &none
+&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none  &none  &none  &none  &none           &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none  &none  &none  &none  &bt BT_CLR      &none
+                                     &none          &none          &none            &none  &none  &none
             >;
 
             label = "SETUP";
