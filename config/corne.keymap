@@ -78,12 +78,12 @@
 
         left_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 28>;
+            key-positions = <28 27>;
         };
 
         left_delete {
             bindings = <&kp DELETE>;
-            key-positions = <4 16>;
+            key-positions = <29 28>;
         };
 
         left_tab {
