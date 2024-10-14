@@ -119,7 +119,7 @@
                                                        &kp BACKSPACE         &hold_or_kp LS(LA(LC(LGUI))) ESCAPE  &mo_or_kp 3 SPACE    &mo_or_kp 1 ENTER  &sk LEFT_SHIFT            &mo_or_kp 2 TAB
             >;
 
-            label = "Write...";
+            label = "WRITE...";
         };
 
         MATH {
@@ -146,10 +146,10 @@
 
         MOVE {
             bindings = <
-&none  &kp A         &kp W              &kp S          &kp D           &kp R     &none   &none           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none            &none
-&none  &kp LEFT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_SHIFT  &kp G     &none   &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &none
-&none  &none         &none              &none          &none           &kp V     &none   &kp C_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none            &none
-                                        &trans         &trans          &trans    &trans  &trans          &trans
+&none  &kp A           &kp W              &kp S          &kp D           &kp R     &none   &none           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none            &none
+&none  &kp LEFT_GUI    &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_SHIFT  &kp F     &none   &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &none
+&none  &kp LEFT_SHIFT  &none              &none          &kp SPACE       &kp V     &none   &none           &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE       &none
+                                          &trans         &trans          &trans    &trans  &trans          &trans
             >;
 
             label = "~Move~";
