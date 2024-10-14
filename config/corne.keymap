@@ -122,7 +122,7 @@
             label = "WRITE ✎";
         };
 
-        NUMERIC {
+        NUM {
             bindings = <
 &none  &kp LBKT   &kp N7        &kp N8  &kp N9     &kp RBKT     &none   &none            &none          &none              &none          &none
 &none  &kp SEMI   &kp N4        &kp N5  &kp N6     &kp EQUAL    &none   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none
@@ -130,7 +130,7 @@
                                 &trans  &kp MINUS  &kp N0       &trans  &trans           &trans
             >;
 
-            label = "NUMERIC";
+            label = "NUM 🔢";
         };
 
         SYMBOL {
