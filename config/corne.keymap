@@ -119,7 +119,7 @@
                                                        &kp BACKSPACE         &hold_or_kp LS(LA(LC(LGUI))) ESCAPE  &mo_or_kp 3 SPACE    &mo_or_kp 1 ENTER  &sk LEFT_SHIFT            &mo_or_kp 2 TAB
             >;
 
-            label = "WRITE ✎";
+            label = "WRITE";
         };
 
         NUM {
@@ -130,7 +130,7 @@
                                 &trans  &kp MINUS  &kp N0       &trans  &trans           &trans
             >;
 
-            label = "NUM 🔢";
+            label = "NUM";
         };
 
         SYMBOL {
