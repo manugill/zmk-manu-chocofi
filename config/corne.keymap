@@ -69,36 +69,37 @@
         left_enter {
             bindings = <&kp ENTER>;
             key-positions = <3 4>;
+            require-prior-idle-ms = <180>;
         };
 
-        right_thumb_bluetooth {
-            bindings = <&mo 4>;
+        setup_layer_hold {
+            bindings = <&mo 5>;
             key-positions = <40 41 39>;
-        };
-
-        left_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <28 27>;
+            require-prior-idle-ms = <500>;
         };
 
         left_delete {
             bindings = <&kp DELETE>;
-            key-positions = <29 28>;
+            key-positions = <28 27>;
+            require-prior-idle-ms = <180>;
         };
 
         left_tab {
             bindings = <&kp TAB>;
-            key-positions = <17 29>;
+            key-positions = <29 17>;
+            require-prior-idle-ms = <200>;
         };
 
-        left_escape {
-            bindings = <&kp ESCAPE>;
+        game_layer_toggle {
+            bindings = <&tog 4>;
+            key-positions = <38 37 36>;
+            require-prior-idle-ms = <500>;
+        };
+
+        left_tab_2 {
+            bindings = <&kp TAB>;
             key-positions = <3 2>;
-        };
-
-        soft_off {
-            bindings = <&soft_off>;
-            key-positions = <1 10>;
+            require-prior-idle-ms = <180>;
         };
     };
 
@@ -153,6 +154,17 @@
             >;
 
             label = "~Move~";
+        };
+
+        GAME {
+            bindings = <
+&none  &kp TAB    &kp Q  &kp W      &kp E     &kp R        &none      &none  &none  &none  &none  &none
+&none  &kp LSHFT  &kp A  &kp S      &kp D     &kp F        &none      &none  &none  &none  &none  &none
+&none  &kp ESC    &kp Z  &kp X      &kp C     &kp V        &none      &none  &none  &none  &none  &none
+                         &kp LCTRL  &kp LGUI  &kp SPACE    &kp ENTER  &none  &none
+            >;
+
+            label = "game!!!";
         };
 
         SETUP {
