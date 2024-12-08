@@ -68,7 +68,7 @@
 
         left_enter {
             bindings = <&kp ENTER>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
             require-prior-idle-ms = <180>;
         };
 
@@ -84,7 +84,7 @@
             require-prior-idle-ms = <180>;
         };
 
-        left_tab {
+        left_tab_secondary {
             bindings = <&kp TAB>;
             key-positions = <29 17>;
             require-prior-idle-ms = <200>;
@@ -96,9 +96,9 @@
             require-prior-idle-ms = <500>;
         };
 
-        left_tab_2 {
+        left_tab_main {
             bindings = <&kp TAB>;
-            key-positions = <3 2>;
+            key-positions = <3 4>;
             require-prior-idle-ms = <180>;
         };
     };
@@ -158,10 +158,10 @@
 
         GAME {
             bindings = <
-&none  &kp TAB    &kp Q  &kp W      &kp E     &kp R        &kp T      &none     &kp UP    &none      &none   &none
-&none  &kp LSHFT  &kp A  &kp S      &kp D     &kp F        &kp G      &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none
-&none  &kp ESC    &kp Z  &kp X      &kp C     &kp V        &kp B      &kp N1    &kp N2    &kp N3     &kp N4  &none
-                         &kp LCTRL  &kp LGUI  &kp SPACE    &kp ENTER  &none     &none
+&none  &kp TAB    &kp Q  &kp W      &kp E     &kp R        &kp T      &none      &kp UP    &none      &none   &none
+&none  &kp LSHFT  &kp A  &kp S      &kp D     &kp F        &kp G      &kp LEFT   &kp DOWN  &kp RIGHT  &none   &none
+&none  &kp ESC    &kp Z  &kp X      &kp C     &kp V        &kp B      &kp N1     &kp N2    &kp N3     &kp N4  &none
+                         &kp LCTRL  &kp LGUI  &kp SPACE    &kp ENTER  &kp SPACE  &none
             >;
 
             label = "game!!!";
