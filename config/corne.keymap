@@ -73,7 +73,7 @@
         };
 
         setup_layer_hold {
-            bindings = <&mo 5>;
+            bindings = <&mo 6>;
             key-positions = <40 41 39>;
             require-prior-idle-ms = <500>;
         };
@@ -91,7 +91,7 @@
         };
 
         game_layer_toggle {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <38 37 36>;
             require-prior-idle-ms = <500>;
         };
@@ -100,6 +100,11 @@
             bindings = <&kp TAB>;
             key-positions = <3 4>;
             require-prior-idle-ms = <180>;
+        };
+
+        Numpad_Layer {
+            bindings = <&mo 4>;
+            key-positions = <39 31>;
         };
     };
 
@@ -154,6 +159,17 @@
             >;
 
             label = "~Move~";
+        };
+
+        NUMPAD {
+            bindings = <
+&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans           &trans           &kp KP_NUMBER_0    &trans  &trans  &trans
+            >;
+
+            label = "NUMPAD";
         };
 
         GAME {
