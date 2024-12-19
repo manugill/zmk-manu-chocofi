@@ -73,7 +73,7 @@
         };
 
         setup_layer_hold {
-            bindings = <&mo 6>;
+            bindings = <&mo 7>;
             key-positions = <40 41 39>;
             require-prior-idle-ms = <500>;
         };
@@ -91,7 +91,7 @@
         };
 
         game_layer_toggle {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <38 37 36>;
             require-prior-idle-ms = <500>;
         };
@@ -105,6 +105,11 @@
         Numpad_Layer {
             bindings = <&mo 4>;
             key-positions = <39 31>;
+        };
+
+        Function_Layer {
+            bindings = <&mo 5>;
+            key-positions = <40 37>;
         };
     };
 
@@ -170,6 +175,17 @@
             >;
 
             label = "NUMPAD";
+        };
+
+        FN {
+            bindings = <
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans  &trans
+            >;
+
+            label = "Fn Keys";
         };
 
         GAME {
