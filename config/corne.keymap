@@ -140,6 +140,21 @@
             bindings = <&sl 8>;
             key-positions = <38 39>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <26 27 28>;
+        };
+
+        brace {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <14 15 16>;
+        };
+
+        brace_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20 21>;
+        };
     };
 
     keymap {
