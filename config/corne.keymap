@@ -137,18 +137,8 @@
         };
 
         code1 {
-            bindings = <&mo 8>;
+            bindings = <&sl 8>;
             key-positions = <38 39>;
-        };
-
-        code2 {
-            bindings = <&mo 8>;
-            key-positions = <13 38>;
-        };
-
-        code3 {
-            bindings = <&mo 8>;
-            key-positions = <39 22>;
         };
     };
 
