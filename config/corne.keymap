@@ -135,6 +135,21 @@
             bindings = <&kp PIPE>;
             key-positions = <31 32>;
         };
+
+        code1 {
+            bindings = <&mo 8>;
+            key-positions = <38 39>;
+        };
+
+        code2 {
+            bindings = <&mo 8>;
+            key-positions = <13 38>;
+        };
+
+        code3 {
+            bindings = <&mo 8>;
+            key-positions = <39 22>;
+        };
     };
 
     keymap {
@@ -168,7 +183,7 @@
             label = "Math 0=1";
         };
 
-        CODE {
+        SPECIAL {
             bindings = <
 &none  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE          &none   &none            &none          &none              &none          &none
 &none  &kp COLON       &kp DOLLAR       &kp PERCENT   &kp CARET             &kp PLUS                 &none   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none
@@ -176,7 +191,7 @@
                                         &trans        &kp UNDERSCORE        &kp RIGHT_PARENTHESIS    &trans  &trans           &trans
             >;
 
-            label = "<Code>";
+            label = "Special!";
         };
 
         MOVE {
@@ -232,6 +247,17 @@
             >;
 
             label = "SETUP";
+        };
+
+        CODE {
+            bindings = <
+&trans  &trans  &kp SINGLE_QUOTE  &kp QUESTION  &kp PLUS       &trans    &trans  &kp ASTERISK           &kp SLASH        &kp GRAVE          &trans  &trans
+&trans  &trans  &kp EXCLAMATION   &kp COLON     &kp EQUAL      &trans    &trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans  &trans
+&trans  &trans  &none             &kp PIPE      &kp AMPERSAND  &trans    &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
+                                  &trans        &trans         &trans    &trans  &trans                 &trans
+            >;
+
+            label = "<Code>";
         };
     };
 };
