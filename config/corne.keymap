@@ -201,10 +201,10 @@
 
         MOVE {
             bindings = <
-&none  &none         &none              &none          &none           &none     &none   &kp PAGE_UP     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none            &none
-&none  &kp LEFT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp LEFT_SHIFT  &none     &none   &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW  &none
-&none  &none         &none              &none          &none           &none     &none   &kp PAGE_DOWN   &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE       &none
-                                        &trans         &trans          &trans    &trans  &trans          &trans
+&none  &none         &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM    &none      &kp PAGE_UP     &kp LC(U)       &none         &none            &none
+&none  &kp LEFT_GUI  &kp RIGHT_CONTROL         &kp RIGHT_ALT         &kp LEFT_SHIFT        &kp SPACE                   &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+&none  &none         &kp K_MUTE                &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none                       &none      &kp PAGE_DOWN   &kp LC(D)       &trans        &trans           &none
+                                               &trans                &trans                &trans                      &trans     &trans          &trans
             >;
 
             label = "~Move~";
