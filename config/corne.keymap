@@ -103,27 +103,27 @@
 
         Function_Layer {
             bindings = <&mo 5>;
-            key-positions = <40 37>;
+            key-positions = <31 40>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <7 8>;
+            key-positions = <19 20 21>;
         };
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <7 8 9>;
+            key-positions = <14 15 16>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <19 20 21>;
+            key-positions = <15 27>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <18 19 20>;
+            key-positions = <20 32>;
         };
 
         and {
@@ -136,11 +136,6 @@
             key-positions = <31 32>;
         };
 
-        code1 {
-            bindings = <&sl 8>;
-            key-positions = <38 39>;
-        };
-
         exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <26 27 28>;
@@ -148,22 +143,22 @@
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15 16>;
+            key-positions = <16 28>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 16 15>;
+            key-positions = <19 31>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <13 14 15>;
+            key-positions = <14 26>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <22 21 20>;
+            key-positions = <21 33>;
         };
     };
 
