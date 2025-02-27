@@ -155,6 +155,16 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <17 16 15>;
         };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14 15>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <22 21 20>;
+        };
     };
 
     keymap {
