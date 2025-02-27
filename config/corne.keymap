@@ -118,12 +118,12 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <19 31>;
+            key-positions = <8 20>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <16 28>;
+            key-positions = <3 15>;
         };
 
         and {
@@ -153,12 +153,12 @@
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <8 20>;
+            key-positions = <20 32>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <3 15>;
+            key-positions = <15 27>;
         };
 
         question {
@@ -168,12 +168,12 @@
 
         less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <20 32>;
+            key-positions = <31 19>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <27 15>;
+            key-positions = <28 16>;
         };
 
         underscore {
