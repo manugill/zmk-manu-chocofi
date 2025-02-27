@@ -226,9 +226,9 @@
 
         MOVE {
             bindings = <
-&none  &none         &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM    &none      &kp LC(U)       &kp PAGE_UP     &none         &none            &none
+&none  &none         &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM    &none      &kp LC(U)       &kp PAGE_DOWN   &kp PAGE_UP   &none            &none
 &none  &kp LEFT_GUI  &kp RIGHT_CONTROL         &kp RIGHT_ALT         &kp LEFT_SHIFT        &kp SPACE                   &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none  &none         &kp K_MUTE                &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none                       &none      &kp LC(D)       &kp PAGE_DOWN   &trans        &trans           &none
+&none  &none         &kp K_MUTE                &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none                       &none      &kp LC(D)       &trans          &trans        &trans           &none
                                                &trans                &trans                &trans                      &trans     &trans          &trans
             >;
 
