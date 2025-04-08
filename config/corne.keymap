@@ -138,7 +138,7 @@
 
         exclamation {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <26 14>;
+            key-positions = <7 8 9>;
         };
 
         left_paren {
@@ -163,27 +163,27 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <15 27>;
+            key-positions = <19 31>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <31 19>;
+            key-positions = <20 32>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <28 16>;
+            key-positions = <15 27>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <32 20>;
+            key-positions = <16 28>;
         };
 
         asterisk {
             bindings = <&kp ASTERISK>;
-            key-positions = <21 33>;
+            key-positions = <17 29>;
         };
 
         hyper_right {
@@ -198,7 +198,7 @@
 
         left_tab_2 {
             bindings = <&kp TAB>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
 
         underscore {
@@ -208,17 +208,17 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <18 30>;
+            key-positions = <5 17>;
         };
 
         weird_quote {
             bindings = <&kp GRAVE>;
-            key-positions = <17 5>;
+            key-positions = <19 31>;
         };
 
         double_quote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <17 29>;
+            key-positions = <18 30>;
         };
     };
 
