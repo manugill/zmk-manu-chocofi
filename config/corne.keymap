@@ -198,7 +198,7 @@
 
         left_tab_2 {
             bindings = <&kp TAB>;
-            key-positions = <37 38>;
+            key-positions = <37 36>;
         };
 
         underscore {
