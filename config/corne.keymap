@@ -80,7 +80,7 @@
 
         left_delete {
             bindings = <&kp DELETE>;
-            key-positions = <28 27>;
+            key-positions = <28 27 26>;
             require-prior-idle-ms = <180>;
         };
 
@@ -128,17 +128,17 @@
 
         and {
             bindings = <&kp AMPERSAND>;
-            key-positions = <31 32 33>;
+            key-positions = <31 32>;
         };
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <31 32>;
+            key-positions = <31 32 33>;
         };
 
         exclamation {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <26 27 28>;
+            key-positions = <26 14>;
         };
 
         left_paren {
@@ -153,17 +153,17 @@
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <20 32>;
+            key-positions = <9 21>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <15 27>;
+            key-positions = <2 14>;
         };
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <7 8>;
+            key-positions = <15 27>;
         };
 
         less_than {
@@ -176,9 +176,49 @@
             key-positions = <28 16>;
         };
 
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <32 20>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <21 33>;
+        };
+
+        hyper_right {
+            bindings = <&hold_or_kp LS(LA(LC(LGUI))) ESCAPE>;
+            key-positions = <39 40>;
+        };
+
+        right_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <40 41>;
+        };
+
+        left_tab_2 {
+            bindings = <&kp TAB>;
+            key-positions = <36 37>;
+        };
+
         underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <7 8 9>;
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <6 18>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <18 30>;
+        };
+
+        weird_quote {
+            bindings = <&kp GRAVE>;
+            key-positions = <17 5>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 29>;
         };
     };
 
