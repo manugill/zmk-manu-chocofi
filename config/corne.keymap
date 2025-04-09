@@ -220,6 +220,11 @@
             bindings = <&kp DOLLAR>;
             key-positions = <26 14>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <33 21>;
+        };
     };
 
     keymap {
