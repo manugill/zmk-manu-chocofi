@@ -203,22 +203,22 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <6 18>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
             key-positions = <5 17>;
         };
 
         weird_quote {
             bindings = <&kp GRAVE>;
-            key-positions = <19 31>;
+            key-positions = <18 30>;
         };
 
         double_quote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <18 30>;
+            key-positions = <18 6>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <26 14>;
         };
     };
 
