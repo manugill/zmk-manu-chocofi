@@ -133,7 +133,7 @@
 
         and {
             bindings = <&kp AMPERSAND>;
-            key-positions = <31 32 33>;
+            key-positions = <33 32>;
         };
 
         exclamation {
