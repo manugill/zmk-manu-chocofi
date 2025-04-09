@@ -318,16 +318,5 @@
 
             label = "SETUP";
         };
-
-        CODE {
-            bindings = <
-&trans  &trans  &kp SINGLE_QUOTE  &kp QUESTION  &kp PLUS       &trans    &trans  &kp ASTERISK           &kp SLASH        &kp GRAVE          &trans  &trans
-&trans  &trans  &kp EXCLAMATION   &kp COLON     &kp EQUAL      &trans    &trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans  &trans
-&trans  &trans  &none             &kp PIPE      &kp AMPERSAND  &trans    &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
-                                  &trans        &trans         &trans    &trans  &trans                 &trans
-            >;
-
-            label = "<Code>";
-        };
     };
 };
