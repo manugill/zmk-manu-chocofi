@@ -128,12 +128,12 @@
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <31 32 33>;
+            key-positions = <31 32>;
         };
 
         and {
             bindings = <&kp AMPERSAND>;
-            key-positions = <31 32>;
+            key-positions = <31 32 33>;
         };
 
         exclamation {
