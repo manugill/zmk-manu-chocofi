@@ -225,6 +225,21 @@
             bindings = <&kp MINUS>;
             key-positions = <33 21>;
         };
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <16 17>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <28 29>;
+        };
+
+        cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <5 4>;
+        };
     };
 
     keymap {
