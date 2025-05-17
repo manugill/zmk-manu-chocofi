@@ -183,7 +183,7 @@
 
         asterisk {
             bindings = <&kp ASTERISK>;
-            key-positions = <17 29>;
+            key-positions = <21 33>;
         };
 
         hyper_right {
@@ -223,22 +223,32 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <33 21>;
+            key-positions = <17 29>;
         };
 
         copy {
-            bindings = <&kp K_COPY>;
-            key-positions = <28 29>;
-        };
-
-        paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp LG(C)>;
             key-positions = <16 17>;
         };
 
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 29>;
+        };
+
         cut {
-            bindings = <&kp K_CUT>;
+            bindings = <&kp LG(X)>;
             key-positions = <5 4>;
+        };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <18 19>;
+        };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <7 6>;
         };
     };
 
