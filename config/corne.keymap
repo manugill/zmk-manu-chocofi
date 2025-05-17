@@ -251,8 +251,8 @@
             key-positions = <7 6>;
         };
 
-        cmd_tab {
-            bindings = <&kp LG(TAB)>;
+        select_all {
+            bindings = <&kp LG(A)>;
             key-positions = <31 30>;
         };
     };
