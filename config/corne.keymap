@@ -250,6 +250,11 @@
             bindings = <&kp LG(LS(Z))>;
             key-positions = <7 6>;
         };
+
+        cmd_tab {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <31 30>;
+        };
     };
 
     keymap {
