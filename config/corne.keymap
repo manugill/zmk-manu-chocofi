@@ -255,6 +255,16 @@
             bindings = <&kp LG(A)>;
             key-positions = <31 30>;
         };
+
+        save_left {
+            bindings = <&kp LG(S)>;
+            key-positions = <16 15 14 13>;
+        };
+
+        save_right {
+            bindings = <&kp LG(S)>;
+            key-positions = <19 20 21 22>;
+        };
     };
 
     keymap {
