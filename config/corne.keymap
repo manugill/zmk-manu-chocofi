@@ -206,7 +206,7 @@
         };
 
         hyper_right {
-            bindings = <&hold_or_kp LS(LA(LC(LGUI))) ESCAPE>;
+            bindings = <&hold_or_kp LS(LA(LC(LGUI)))>;
             key-positions = <39 40>;
         };
 
@@ -297,10 +297,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                 &kp W                     &kp F                 &kp P                                &kp B                     &kp J                    &kp L                     &kp U                   &kp Y                       &kp SQT                 &none
-&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_CONTROL R  &hmr_left LEFT_ALT S  &hmr_left LEFT_SHIFT T               &kp G                     &kp M                    &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_ALT E  &hmr_right RIGHT_CONTROL I  &hmr_right RIGHT_GUI O  &none
-&none  &kp Z                 &kp X                     &kp C                 &kp D                                &kp V                     &kp K                    &kp H                     &kp COMMA               &kp DOT                     &kp FSLH                &none
-                                                       &kp BACKSPACE         &hold_or_kp LS(LA(LC(LGUI))) ESCAPE  &mo_or_kp_left 3 SPACE    &mo_or_kp_right 1 ENTER  &sk LEFT_SHIFT            &mo_or_kp_right 2 TAB
+&none  &kp Q                 &kp W                     &kp F                 &kp P                                 &kp B                     &kp J                    &kp L                     &kp U                   &kp Y                       &kp SQT                 &none
+&none  &hmr_left LEFT_GUI A  &hmr_left LEFT_CONTROL R  &hmr_left LEFT_ALT S  &hmr_left LEFT_SHIFT T                &kp G                     &kp M                    &hmr_right RIGHT_SHIFT N  &hmr_right RIGHT_ALT E  &hmr_right RIGHT_CONTROL I  &hmr_right RIGHT_GUI O  &none
+&none  &kp Z                 &kp X                     &kp C                 &kp D                                 &kp V                     &kp K                    &kp H                     &kp COMMA               &kp DOT                     &kp FSLH                &none
+                                                       &kp BACKSPACE         &hold_or_kp LS(LA(LC(LEFT_COMMAND)))  &mo_or_kp_left 3 SPACE    &mo_or_kp_right 1 ENTER  &sk LEFT_SHIFT            &mo_or_kp_right 2 TAB
             >;
 
             label = "WRITE...";
