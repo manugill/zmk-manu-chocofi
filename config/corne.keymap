@@ -16,10 +16,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <195>;
             flavor = "hold-preferred";
             quick-tap-ms = <175>;
             require-prior-idle-ms = <0>;
+            hold-while-undecided;
         };
 
         mo_or_kp: mo_or_kp {
@@ -28,10 +29,11 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <195>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <0>;
             flavor = "balanced";
+            hold-while-undecided;
         };
 
         hmr_left: hmr_left {
