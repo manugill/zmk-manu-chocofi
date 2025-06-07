@@ -270,16 +270,6 @@
             bindings = <&kp LG(A)>;
             key-positions = <29 28>;
         };
-
-        hyper_t {
-            bindings = <&kp LS(LA(LC(LG(T))))>;
-            key-positions = <37 16>;
-        };
-
-        hyper_s {
-            bindings = <&kp LA(LS(LC(LG(S))))>;
-            key-positions = <37 15>;
-        };
     };
 
     keymap {
