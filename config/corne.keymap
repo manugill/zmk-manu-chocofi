@@ -244,32 +244,32 @@
 
         copy {
             bindings = <&kp LG(C)>;
-            key-positions = <16 17>;
+            key-positions = <18 19>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <28 29>;
+            key-positions = <30 31>;
         };
 
         cut {
             bindings = <&kp LG(X)>;
-            key-positions = <5 4>;
+            key-positions = <6 7>;
         };
 
         undo {
             bindings = <&kp LG(Z)>;
-            key-positions = <18 19>;
+            key-positions = <17 16>;
         };
 
         redo {
             bindings = <&kp LG(LS(Z))>;
-            key-positions = <7 6>;
+            key-positions = <4 5>;
         };
 
         select_all {
             bindings = <&kp LG(A)>;
-            key-positions = <31 30>;
+            key-positions = <29 28>;
         };
 
         hyper_t {
